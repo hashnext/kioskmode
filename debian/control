@@ -1,0 +1,19 @@
+### Commented entries have reasonable defaults.
+### Uncomment to edit them.
+Source: kioskmode
+Section: misc
+Priority: optional
+Standards-Version: 3.9.2
+
+Package: kioskmode
+Version: 0.1
+Maintainer: Stuart Clark <stuart.clark@Jahingo.com>
+Depends: lightdm, kiosk
+Architecture: all
+Copyright: COPYING
+#Changelog: CHANGES
+Readme: README.md
+Postinst: debian/postinst.sh
+Postrm: debian/postrm.sh
+Description: LightDM kiosk mode
+ Kiosk mode for the LightDM display manager
